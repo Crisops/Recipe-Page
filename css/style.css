@@ -294,10 +294,10 @@ footer p span{
 
   main section .gridRecipe .gridBoxIngredients .boxIngredients .preparationIngredients .gridPreparation {
     display: grid;
-    grid-template-columns: 20px 20px;
+    grid-template-columns: 20px 44px;
     align-items: center;
-    gap: 15px;
-  }
+    gap: 8px;
+}
 
   main section .gridRecipe .gridBoxIngredients .boxIngredients .preparationIngredients .gridPreparation .contentIconPreparation span {
     transition: 0.40s all ease;
@@ -357,4 +357,8 @@ footer p span{
   main section .gridRecipe .gridBoxIngredients .boxIngredients .preparationIngredients .gridPreparation {
     gap: 7px;
   } 
+
+  main section .gridRecipe .gridBoxIngredients .boxIngredients .preparationIngredients .gridPreparation {
+    grid-template-columns: 20px 20px;
+  }
 }
